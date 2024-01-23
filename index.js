@@ -10,9 +10,9 @@ const plugin = (_options = {}) => {
   const options = { ...DEFAULT_OPTIONS, ..._options };
 
   const sectionize = (node, index, parent) => {
-    const start = node
-    const startIndex = index
-    const depth = start.depth
+    const start = node;
+    const startIndex = index;
+    const depth = start.depth;
   
     const end = findAfter(parent, start, (node) => {
       if (node.type === 'export') {
@@ -39,7 +39,10 @@ const plugin = (_options = {}) => {
       depth: depth,
       children: between,
       data: {
-        hName: 'section'
+        hName: 'section',
+        hProperties: {
+          className: `remark-sectionize-h${depth}`,
+        },
       }
     };
   

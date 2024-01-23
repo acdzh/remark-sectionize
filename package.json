@@ -1,6 +1,6 @@
 {
   "name": "@acdzh/remark-sectionize",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrap content below each heading in a <section> element",
   "main": "index.js",
   "repository": "https://github.com/acdzh/remark-sectionize",

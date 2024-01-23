@@ -1,6 +1,6 @@
 # remark-sectionize
 
-**Forked from https://github.com/jake-low/remark-sectionize, add flatten option**
+**Forked from https://github.com/jake-low/remark-sectionize, add flatten option.**
 
 This is a [remark](https://github.com/remarkjs/remark) plugin to wrap each
 heading and the content that follows it in a `<section>` tag, allowing you to
